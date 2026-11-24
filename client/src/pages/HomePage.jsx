@@ -211,7 +211,7 @@ export default function HomePage({ onOpenQuote }) {
             {/* Small Amber/Gold Subtitle matching screenshot */}
             <div className="text-amber-400 font-extrabold uppercase tracking-widest text-xs sm:text-sm font-heading flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-              <span>SKYLINE Salt and Minerals Pvt. Ltd.</span>
+              <span>SKYLINE Salt and Minerals</span>
             </div>
 
             {/* Big H1 Title matching screenshot */}
@@ -221,7 +221,7 @@ export default function HomePage({ onOpenQuote }) {
 
             {/* Description Paragraph matching screenshot phrasing */}
             <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-normal max-w-2xl">
-              Skyline Salt and Minerals Private Limited is a trusted supplier of Industrial Salt, Bentonite, and China Clay — serving manufacturers, processors, and exporters with consistent quality and reliable supply chains.
+              Skyline Salt and Minerals is a trusted supplier of Industrial Salt, Bentonite, and China Clay — serving manufacturers, processors, and exporters with consistent quality and reliable supply chains.
             </p>
 
             {/* Dual Pill Action Buttons matching screenshot */}

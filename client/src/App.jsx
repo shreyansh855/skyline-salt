@@ -6,7 +6,6 @@ import { SettingsProvider } from './context/SettingsContext';
 import { AuthProvider } from './context/AuthContext';
 
 // Layout Components
-import TopBar from './components/layout/TopBar';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 import EnquiryModal from './components/common/EnquiryModal';
@@ -60,10 +59,9 @@ function AppContent() {
   return (
     <div className="flex flex-col min-h-screen">
       <ScrollToTopOnNavigate />
-      {/* Public TopBar & Navbar (hidden on /admin routes) */}
+      {/* Public Navbar (hidden on /admin routes) */}
       {!isAdmin && (
         <>
-          <TopBar />
           <Navbar onOpenQuote={handleOpenQuote} />
           {/* Global Floating Multilingual Language Switcher */}
           <LanguageSwitcher />
