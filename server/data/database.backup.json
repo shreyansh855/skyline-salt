@@ -5381,6 +5381,16 @@
   "analytics": {
     "visits": [
       {
+        "id": "v_1795532811211_6dn2",
+        "timestamp": "2026-11-24T15:06:51.211Z",
+        "path": "/",
+        "referrer": "direct",
+        "productSlug": null,
+        "deviceType": "Mobile",
+        "ip": "2409:4080:830c:473d:da31:f4b3:3894:2c68",
+        "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Mobile Safari/537.36"
+      },
+      {
         "id": "v_1795532718278_t9vu",
         "timestamp": "2026-11-24T15:05:18.278Z",
         "path": "/",
@@ -7269,9 +7279,9 @@
         }
       },
       "2026-11-24": {
-        "totalViews": 375,
+        "totalViews": 376,
         "pageViews": {
-          "/": 142,
+          "/": 143,
           "/products": 57,
           "/contact": 35,
           "/manufacturing": 28,
