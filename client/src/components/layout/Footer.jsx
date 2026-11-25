@@ -203,21 +203,16 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Certificates Heading & Official Logos (Directly from skcsalt.com) */}
-            <div className="space-y-2.5 pt-2 border-t border-slate-800/80">
+            {/* Certificates Heading & Official Logos */}
+            <div className="space-y-2 pt-2 border-t border-slate-800/80">
               <h4 className="text-xs font-bold uppercase tracking-wider text-white font-heading">
-                Certificates
+                Certifications
               </h4>
-              <div className="flex flex-col gap-2.5">
+              <div className="pt-1">
                 <img 
                   src="/certificates.png" 
-                  alt="IAF, FIEO, APEDA, Halal Export Certificates" 
-                  className="w-full max-w-[200px] h-auto object-contain hover:scale-105 transition-transform" 
-                />
-                <img 
-                  src="/iso-certificate.png" 
-                  alt="ISO 9001:2015 Certified Company" 
-                  className="w-16 sm:w-20 h-auto object-contain hover:scale-105 transition-transform" 
+                  alt="IAF, FIEO, APEDA, Halal, ISO 9001:2015 Certifications" 
+                  className="w-full max-w-[240px] h-auto object-contain hover:scale-105 transition-transform" 
                 />
               </div>
             </div>
@@ -336,17 +331,12 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Official Certificates directly from skcsalt.com */}
-          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
+          {/* Official Certificates in a clean balanced line */}
+          <div className="flex items-center justify-center">
             <img 
               src="/certificates.png" 
-              alt="Official IAF, FIEO, APEDA, Halal Export Certificates" 
-              className="h-16 sm:h-20 w-auto object-contain hover:scale-105 transition-transform" 
-            />
-            <img 
-              src="/iso-certificate.png" 
-              alt="ISO 9001:2015 Certified Company" 
-              className="h-14 sm:h-18 w-auto object-contain hover:scale-105 transition-transform" 
+              alt="Official IAF, FIEO, APEDA, Halal, ISO 9001:2015 Export Certifications" 
+              className="h-12 sm:h-16 w-auto max-w-full object-contain hover:scale-105 transition-transform drop-shadow-sm" 
             />
           </div>
         </div>
