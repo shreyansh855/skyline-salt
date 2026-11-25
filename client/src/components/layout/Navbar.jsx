@@ -153,11 +153,8 @@ export default function Navbar({ onOpenQuote }) {
               />
             </div>
             <div className="flex flex-col justify-center">
-              <div className="text-lg sm:text-xl font-black font-heading tracking-tight text-slate-900 leading-none flex items-center gap-1.5">
-                <span>SKYLINE</span>
-                <span className="text-[8.5px] font-bold uppercase tracking-wider text-blue-700 bg-blue-50 px-1 py-0.5 rounded border border-blue-200/60 leading-none">
-                  Est. 2011
-                </span>
+              <div className="text-lg sm:text-xl font-black font-heading tracking-tight text-slate-900 leading-none">
+                SKYLINE
               </div>
               <div className="text-[10px] sm:text-[11px] font-extrabold uppercase tracking-wider text-blue-900 leading-none mt-1">
                 Salt & Minerals

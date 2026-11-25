@@ -41,11 +41,8 @@ export default function Footer() {
                 className="w-12 h-12 object-contain shrink-0 group-hover:scale-105 transition-transform"
               />
               <div className="flex flex-col justify-center">
-                <div className="text-base sm:text-lg font-black font-heading tracking-tight text-slate-950 flex items-center gap-1.5 leading-none group-hover:text-sky-700 transition-colors">
-                  <span>SKYLINE</span>
-                  <span className="text-[8.5px] font-bold uppercase tracking-wider text-sky-800 bg-sky-100 px-1.5 py-0.5 rounded border border-sky-300 leading-none">
-                    Est. 2011
-                  </span>
+                <div className="text-base sm:text-lg font-black font-heading tracking-tight text-slate-950 leading-none group-hover:text-sky-700 transition-colors">
+                  SKYLINE
                 </div>
                 <div className="text-[10.5px] font-extrabold uppercase tracking-wider text-sky-700 mt-1 leading-none">
                   Salt & Minerals

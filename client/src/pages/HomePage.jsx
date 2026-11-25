@@ -208,10 +208,16 @@ export default function HomePage({ onOpenQuote }) {
         <div className="relative max-w-[1600px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28 z-10">
           <div className="max-w-3xl space-y-6">
             
-            {/* Small Amber/Gold Subtitle matching screenshot */}
-            <div className="text-amber-400 font-extrabold uppercase tracking-widest text-xs sm:text-sm font-heading flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-              <span>SKYLINE Salt and Minerals</span>
+            {/* Small Amber/Gold Subtitle with Heritage Badge */}
+            <div className="flex flex-wrap items-center gap-3">
+              <div className="text-amber-400 font-extrabold uppercase tracking-widest text-xs sm:text-sm font-heading flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                <span>SKYLINE Salt and Minerals</span>
+              </div>
+              <span className="px-3 py-1 rounded-full bg-amber-400/20 border border-amber-400/40 text-amber-300 font-extrabold text-[11px] sm:text-xs uppercase tracking-wider backdrop-blur-xs flex items-center gap-1.5 shadow-xs">
+                <Award className="w-3.5 h-3.5 text-amber-400" />
+                <span>Est. 2011 • 15+ Years Excellence</span>
+              </span>
             </div>
 
             {/* Big H1 Title matching screenshot */}
@@ -401,13 +407,8 @@ export default function HomePage({ onOpenQuote }) {
                   className="w-16 h-16 sm:w-20 sm:h-20 object-contain shrink-0 drop-shadow-sm hover:scale-105 transition-transform" 
                 />
                 <div className="space-y-0.5 sm:space-y-1">
-                  <div className="flex items-center justify-center sm:justify-start gap-2">
-                    <span className="text-2xl sm:text-3xl font-black font-heading tracking-tight text-slate-950">
-                      SKYLINE
-                    </span>
-                    <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-sky-800 bg-sky-50 px-2 py-0.5 rounded border border-sky-200">
-                      Est. 2011
-                    </span>
+                  <div className="text-2xl sm:text-3xl font-black font-heading tracking-tight text-slate-950">
+                    SKYLINE
                   </div>
                   <div className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-sky-700">
                     —  SALT & MINERALS  —

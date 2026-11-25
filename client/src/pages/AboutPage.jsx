@@ -70,13 +70,8 @@ export default function AboutPage({ onOpenQuote }) {
                   className="w-16 h-16 sm:w-20 sm:h-20 object-contain shrink-0 drop-shadow-sm hover:scale-105 transition-transform" 
                 />
                 <div className="space-y-0.5">
-                  <div className="flex items-center justify-center sm:justify-start gap-2">
-                    <span className="text-2xl font-black font-heading tracking-tight text-slate-950">
-                      SKYLINE
-                    </span>
-                    <span className="text-[9px] font-bold uppercase tracking-wider text-sky-800 bg-white px-2 py-0.5 rounded border border-sky-200">
-                      Est. 2011
-                    </span>
+                  <div className="text-2xl font-black font-heading tracking-tight text-slate-950">
+                    SKYLINE
                   </div>
                   <div className="text-xs font-extrabold uppercase tracking-widest text-sky-700">
                     —  SALT & MINERALS  —
