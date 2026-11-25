@@ -56,7 +56,7 @@ export default function SEO({
     "@type": "Organization",
     "name": settings.companyName,
     "url": window.location.origin,
-    "logo": `${window.location.origin}/logo.png`,
+    "logo": `${window.location.origin}/skyline-emblem.png`,
     "description": settings.tagline,
     "address": [
       {
