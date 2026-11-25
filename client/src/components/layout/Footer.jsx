@@ -206,11 +206,13 @@ export default function Footer() {
                 Certifications
               </h4>
               <div className="pt-1">
-                <img 
-                  src="/certificates.png" 
-                  alt="IAF, FIEO, APEDA, Halal, ISO 9001:2015 Certifications" 
-                  className="w-full max-w-[240px] h-auto object-contain hover:scale-105 transition-transform" 
-                />
+                <div className="bg-white rounded-xl p-2 sm:p-2.5 shadow-sm border border-slate-200 inline-block w-full max-w-[260px] transition hover:shadow-md">
+                  <img 
+                    src="/certificates.png" 
+                    alt="IAF, FIEO, APEDA, Halal, ISO 9001:2015 Certifications" 
+                    className="w-full h-auto object-contain" 
+                  />
+                </div>
               </div>
             </div>
 
@@ -328,13 +330,15 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Official Certificates in a clean balanced line */}
+          {/* Official Certificates in a clean balanced line on White Card */}
           <div className="flex items-center justify-center">
-            <img 
-              src="/certificates.png" 
-              alt="Official IAF, FIEO, APEDA, Halal, ISO 9001:2015 Export Certifications" 
-              className="h-12 sm:h-16 w-auto max-w-full object-contain hover:scale-105 transition-transform drop-shadow-sm" 
-            />
+            <div className="bg-white rounded-2xl p-2.5 sm:p-3.5 shadow-sm border border-slate-200/80 flex items-center justify-center transition hover:shadow-md">
+              <img 
+                src="/certificates.png" 
+                alt="Official IAF, FIEO, APEDA, Halal, ISO 9001:2015 Export Certifications" 
+                className="h-10 sm:h-14 w-auto max-w-full object-contain" 
+              />
+            </div>
           </div>
         </div>
 
