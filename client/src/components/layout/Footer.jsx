@@ -32,28 +32,28 @@ export default function Footer() {
             <Link 
               to="/" 
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} 
-              className="flex items-center gap-3 group hover:opacity-95 transition cursor-pointer" 
+              className="bg-white rounded-2xl p-3.5 sm:p-4 shadow-sm border border-slate-200/60 inline-flex items-center gap-3 group hover:shadow-md transition-all cursor-pointer w-full max-w-xs" 
               title="Skyline Home"
             >
               <img 
                 src="/skyline-emblem.png" 
                 alt="Skyline Salt and Minerals Logo" 
-                className="w-12 h-12 object-contain shrink-0 drop-shadow-md group-hover:scale-105 transition-transform"
+                className="w-12 h-12 object-contain shrink-0 group-hover:scale-105 transition-transform"
               />
               <div className="flex flex-col justify-center">
-                <div className="text-lg font-black font-heading tracking-tight text-white flex items-center gap-1.5 leading-none group-hover:text-sky-300 transition-colors">
+                <div className="text-base sm:text-lg font-black font-heading tracking-tight text-slate-950 flex items-center gap-1.5 leading-none group-hover:text-sky-700 transition-colors">
                   <span>SKYLINE</span>
-                  <span className="text-[9px] font-bold uppercase tracking-wider text-sky-300 bg-blue-950/90 px-1 py-0.5 rounded border border-blue-800">
+                  <span className="text-[8.5px] font-bold uppercase tracking-wider text-sky-800 bg-sky-100 px-1.5 py-0.5 rounded border border-sky-300 leading-none">
                     Est. 2011
                   </span>
                 </div>
-                <div className="text-[10.5px] font-bold uppercase tracking-wider text-blue-400 mt-1 leading-none">
+                <div className="text-[10.5px] font-extrabold uppercase tracking-wider text-sky-700 mt-1 leading-none">
                   Salt & Minerals
                 </div>
-                <div className="text-[9px] font-medium text-slate-400 uppercase tracking-wide leading-none mt-0.5">
+                <div className="text-[8.5px] font-semibold text-slate-500 uppercase tracking-wide leading-none mt-0.5">
                   A Unit of Skyline Enterprises
                 </div>
-                <div className="text-[10px] font-serif italic text-sky-300 font-medium tracking-normal mt-0.5">
+                <div className="text-[9.5px] font-serif italic text-blue-900 font-semibold tracking-normal mt-0.5 leading-none">
                   a way of exporting excellency
                 </div>
               </div>

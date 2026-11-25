@@ -62,6 +62,34 @@ export default function AboutPage({ onOpenQuote }) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             
             <div className="lg:col-span-7 space-y-5">
+              {/* Official Corporate Brand Card */}
+              <div className="bg-slate-50 rounded-3xl p-5 sm:p-6 shadow-xs border border-slate-200/80 flex flex-col sm:flex-row items-center gap-4 sm:gap-6 text-center sm:text-left">
+                <img 
+                  src="/skyline-emblem.png" 
+                  alt="Skyline Salt & Minerals Emblem" 
+                  className="w-16 h-16 sm:w-20 sm:h-20 object-contain shrink-0 drop-shadow-sm hover:scale-105 transition-transform" 
+                />
+                <div className="space-y-0.5">
+                  <div className="flex items-center justify-center sm:justify-start gap-2">
+                    <span className="text-2xl font-black font-heading tracking-tight text-slate-950">
+                      SKYLINE
+                    </span>
+                    <span className="text-[9px] font-bold uppercase tracking-wider text-sky-800 bg-white px-2 py-0.5 rounded border border-sky-200">
+                      Est. 2011
+                    </span>
+                  </div>
+                  <div className="text-xs font-extrabold uppercase tracking-widest text-sky-700">
+                    —  SALT & MINERALS  —
+                  </div>
+                  <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wide">
+                    A Unit of Skyline Enterprises
+                  </div>
+                  <div className="text-xs font-serif italic text-blue-900 font-semibold pt-0.5">
+                    “a way of exporting excellency”
+                  </div>
+                </div>
+              </div>
+
               <h2 className="text-2xl sm:text-3xl font-extrabold font-heading text-slate-900">
                 Pioneering the Kutch Mineral Belt
               </h2>

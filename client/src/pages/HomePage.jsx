@@ -392,6 +392,35 @@ export default function HomePage({ onOpenQuote }) {
 
             {/* Right: About Company Content (7 cols) */}
             <div className="lg:col-span-7 space-y-6">
+              
+              {/* Official Corporate Brand Card (Exact Unnati Style Logo on White) */}
+              <div className="bg-white rounded-3xl p-5 sm:p-7 shadow-sm border border-slate-200/90 flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-4 sm:gap-6 text-center sm:text-left transition hover:shadow-md">
+                <img 
+                  src="/skyline-emblem.png" 
+                  alt="Skyline Salt & Minerals Official Emblem" 
+                  className="w-16 h-16 sm:w-20 sm:h-20 object-contain shrink-0 drop-shadow-sm hover:scale-105 transition-transform" 
+                />
+                <div className="space-y-0.5 sm:space-y-1">
+                  <div className="flex items-center justify-center sm:justify-start gap-2">
+                    <span className="text-2xl sm:text-3xl font-black font-heading tracking-tight text-slate-950">
+                      SKYLINE
+                    </span>
+                    <span className="text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-sky-800 bg-sky-50 px-2 py-0.5 rounded border border-sky-200">
+                      Est. 2011
+                    </span>
+                  </div>
+                  <div className="text-xs sm:text-sm font-extrabold uppercase tracking-widest text-sky-700">
+                    —  SALT & MINERALS  —
+                  </div>
+                  <div className="text-[11px] sm:text-xs font-semibold text-slate-500 uppercase tracking-wide">
+                    A Unit of Skyline Enterprises
+                  </div>
+                  <div className="text-xs sm:text-sm font-serif italic text-blue-900 font-semibold pt-0.5">
+                    “a way of exporting excellency”
+                  </div>
+                </div>
+              </div>
+
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-md text-xs font-bold uppercase tracking-wider bg-sky-100 text-sky-800">
                 <span className="w-1.5 h-1.5 rounded-full bg-sky-600"></span>
                 <span>About Us</span>
