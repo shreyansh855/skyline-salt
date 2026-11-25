@@ -5381,6 +5381,16 @@
   "analytics": {
     "visits": [
       {
+        "id": "v_1795589959475_835z",
+        "timestamp": "2026-11-25T06:59:19.476Z",
+        "path": "/",
+        "referrer": "direct",
+        "productSlug": null,
+        "deviceType": "Desktop",
+        "ip": "2405:201:202e:818:cc0c:d43c:5061:74e7",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36"
+      },
+      {
         "id": "v_1795538719992_gpij",
         "timestamp": "2026-11-24T16:45:19.992Z",
         "path": "/",
@@ -7361,6 +7371,13 @@
           "free-flow-salt": 2,
           "industrial-gypsum-granules": 1
         }
+      },
+      "2026-11-25": {
+        "totalViews": 1,
+        "pageViews": {
+          "/": 1
+        },
+        "productViews": {}
       }
     }
   },
