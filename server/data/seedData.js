@@ -5348,7 +5348,7 @@ module.exports = {
     "emailInfo": "Info@skylinesaltandminerals.com",
     "emailSupport": "support@skylinesaltandminerals.com",
     "workingHours": "Monday to Saturday: 9:00 AM – 7:30 PM (IST)",
-    "gstNumber": "24AAJCS1234F1Z8",
+    "gstNumber": "24CHLPM4029D1ZJ",
     "iecCode": "2418009876",
     "foundedYear": "2011",
     "productionCapacity": "350,000+ Metric Tons / Year",

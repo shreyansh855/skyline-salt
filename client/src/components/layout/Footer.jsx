@@ -19,6 +19,7 @@ export default function Footer() {
   const phone2 = settings.phoneSecondary || "+91 96871 36559";
   const emailInfo = settings.emailInfo || "Info@skylinesaltandminerals.com";
   const emailSupport = settings.emailSupport || "support@skylinesaltandminerals.com";
+  const gstNumber = settings.gstNumber || "24CHLPM4029D1ZJ";
 
   return (
     <footer className="bg-slate-950 text-slate-300 pt-16 pb-8 border-t border-slate-800">
@@ -70,6 +71,10 @@ export default function Footer() {
               <span className="px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-300 flex items-center gap-1">
                 <Award className="w-3 h-3 text-amber-400" />
                 <span>API Spec 13A</span>
+              </span>
+              <span className="px-2 py-0.5 rounded bg-slate-900/90 border border-slate-800 text-sky-300 flex items-center gap-1 font-mono text-[10.5px]">
+                <span className="text-slate-400 font-sans">GSTIN:</span>
+                <span className="font-semibold text-white tracking-wider">{gstNumber}</span>
               </span>
             </div>
           </div>
@@ -303,6 +308,19 @@ export default function Footer() {
                 </a>
               </div>
             </div>
+
+            {/* Official GSTIN Details */}
+            <div className="pt-1.5 border-t border-slate-900 space-y-0.5 text-xs">
+              <div className="text-slate-400 font-medium flex items-center gap-1.5 text-[11px]">
+                <ShieldCheck className="w-3 h-3 text-sky-400" />
+                <span>GST Identification:</span>
+              </div>
+              <div className="pl-4 text-[11px]">
+                <span className="font-mono font-bold tracking-wider text-sky-300 bg-slate-900/90 px-2 py-0.5 rounded border border-slate-800 inline-block">
+                  GSTIN: {gstNumber}
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -347,7 +365,11 @@ export default function Footer() {
             . All rights reserved.
           </div>
 
-          <div className="flex items-center gap-6">
+          <div className="flex flex-wrap items-center gap-3 sm:gap-6">
+            <span className="font-mono text-slate-300 bg-slate-900/90 px-2.5 py-1 rounded border border-slate-800 text-[11px] flex items-center gap-1.5 shadow-2xs">
+              <span className="text-slate-400 font-sans">GSTIN:</span>
+              <span className="font-semibold text-sky-300 tracking-wider">24CHLPM4029D1ZJ</span>
+            </span>
             <span>Gandhidham & Bhuj-Kutch, Gujarat, India</span>
           </div>
         </div>

@@ -20,6 +20,7 @@ export default function ContactPage() {
   const phone2 = settings.phoneSecondary || "+91 96871 36559";
   const emailInfo = settings.emailInfo || "Info@skylinesaltandminerals.com";
   const emailSupport = settings.emailSupport || "support@skylinesaltandminerals.com";
+  const gstNumber = settings.gstNumber || "24CHLPM4029D1ZJ";
 
   // Form State
   const [formData, setFormData] = useState({
@@ -222,6 +223,30 @@ export default function ContactPage() {
                     {emailSupport}
                   </a>
                 </div>
+              </div>
+            </div>
+
+            {/* Corporate Tax & GST Registration Card */}
+            <div className="bg-white rounded-2xl border border-slate-200/90 shadow-sm p-5 space-y-2">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2">
+                  <div className="w-7 h-7 rounded-lg bg-emerald-100 flex items-center justify-center text-emerald-800 shrink-0">
+                    <ShieldCheck className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h5 className="font-heading font-bold text-xs text-slate-900">GST Registration</h5>
+                    <div className="text-[10px] text-slate-500">Government of India Tax Compliance</div>
+                  </div>
+                </div>
+                <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
+                  Verified Active
+                </span>
+              </div>
+              <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-100 flex items-center justify-between">
+                <span className="text-[11px] font-medium text-slate-600">GSTIN:</span>
+                <span className="font-mono text-xs font-bold text-slate-900 tracking-wider select-all">
+                  {gstNumber}
+                </span>
               </div>
             </div>
 

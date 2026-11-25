@@ -102,7 +102,7 @@ export default function AdminSettingsPage() {
         <div className="space-y-3">
           <div className="text-xs font-bold uppercase tracking-wider text-blue-700">1. Company Identity</div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="block font-bold text-slate-700 mb-1">Company Legal Name</label>
               <input
@@ -120,6 +120,16 @@ export default function AdminSettingsPage() {
                 value={formData.tagline || ''}
                 onChange={e => setFormData({ ...formData, tagline: e.target.value })}
                 className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs outline-none"
+              />
+            </div>
+            <div>
+              <label className="block font-bold text-slate-700 mb-1">GST Identification (GSTIN)</label>
+              <input
+                type="text"
+                value={formData.gstNumber || ''}
+                onChange={e => setFormData({ ...formData, gstNumber: e.target.value })}
+                placeholder="24CHLPM4029D1ZJ"
+                className="w-full px-3 py-2 rounded-xl border border-slate-300 text-xs outline-none font-mono uppercase"
               />
             </div>
           </div>
